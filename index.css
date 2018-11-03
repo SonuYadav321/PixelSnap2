@@ -207,7 +207,7 @@ margin-top:26px;
 }
 #contentslider{
 display:flex;
-flex-direction: :row;
+flex-direction: row;
 margin-top:150px;
 margin-bottom:150px;
 overflow:hidden;
