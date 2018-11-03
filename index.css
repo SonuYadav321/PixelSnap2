@@ -1,0 +1,283 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+*{
+  font-family: Heebo,sans-serif;
+}
+
+#header{
+display:flex;
+font-size:20px;
+flex-direction:row;
+margin-top:150px;
+margin-left:200px;
+margin-bottom: 125px;
+}
+#header p{
+font-size: 22px;
+font-weight: 300;
+color:#7f7f81;
+margin-top:20px;
+margin-bottom:50px;
+margin-right: 250px;
+}
+#header button{
+font-size:15px;
+line-height: 20px;
+height:46px;
+width:145.17px !important;
+border-radius:30px;
+background-image: linear-gradient(-180deg,#fd7054 0,#ff3b6a 100%);
+margin-bottom: 20px;
+margin-top: 5px;
+}
+#header small{
+margin-top:20px;
+color:grey;
+margin-bottom: 100px;
+letter-spacing: .38px;
+}
+#header small span{
+font-size:12px;
+}
+#header button:hover{
+box-shadow: 0 7px 29px 0 rgba(254,89,105,.3);
+margin-top: 0px;
+cursor: pointer;
+}
+#middle{
+margin-top:125px;
+margin-left:200px;
+margin-bottom: 50px !important;
+display:flex;
+font-size:20px;
+flex-direction:row;
+}
+#middle p{
+margin-right:20px;
+}
+#middle2{
+margin-top:60px;
+margin-left:200px;
+margin-bottom: 70px !important;
+display:flex;
+font-size:20px;
+flex-direction:row;
+}
+#middle2 p{
+margin-right:20px;
+}
+#middle3{
+display:flex;
+justify-content: center;
+align-items: center;
+font-weight: lighter;
+margin-bottom: 30px;
+}
+#middle4{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#middle4 button{
+font-size:16px;
+height:52px;
+width: 183px;
+background:linear-gradient(-180deg,#fd7054 0,#ff3b6a 100%);
+border-radius:100px;
+color:white;
+}
+#middle4 button:hover{
+cursor:pointer;
+box-shadow: 0 7px 29px 0 rgba(254,89,105,.3);
+}
+#middle5{
+display:flex;
+margin-top: 300px;
+letter-spacing: .49px;
+}
+#middle5 button{
+height: 47px;
+width:155.47px;
+background-color:white;
+border-radius:100px;
+color:#646467;
+}
+#middle5 button:hover{
+cursor: pointer;
+box-shadow: 5px#fd7054;
+}
+.perfect{
+width:450px;
+height: auto;
+margin-left:0px;
+margin-right:120px;
+}
+#middle6{
+display:flex;
+margin:30px auto 30px auto;
+justify-content: center;
+align-items: center;
+font-size:20px;
+font-weight:lighter;
+}
+#graph{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#graph button{
+height:66px;
+width:219.55px;
+font-size:20px;
+background-image: linear-gradient(-180deg,#fd7054 0,#ff3b6a 100%);
+border-radius: 100px;
+margin-top:5px;
+}
+#graph button:hover{
+margin-top:0px;
+box-shadow: 0 7px 29px 0 rgba(254,89,105,.3);
+cursor: pointer;
+}
+.down{
+display:flex;
+justify-content: center;
+align-items: center;
+font-size:20px;
+color:grey;
+}
+.down1{
+display:flex;
+justify-content: center;
+align-items: center;
+font-size:20px;
+color:coral;
+}
+.last{
+  display:flex;
+  flex-direction: row;
+  font-size:16px;
+  margin-top:120px;
+}
+.last p{
+margin-left:200px;
+}
+.last p span{
+color:tomato;
+}
+.take{
+margin-left:550px;
+list-style: none;
+}
+.take ul {
+float:right;
+}
+.take ul li{
+list-style: none;
+position: relative;
+float:left;
+margin-right:15px;
+color:tomato;
+}
+#middle .circle{
+margin-right:20px;
+margin-top:26px;
+}
+#middle .camera{
+margin-top:27px !important;
+margin-right:20px;
+}
+#middle .square{
+margin-right:20px;
+margin-top:26px;
+}
+#middle2 .diamond{
+margin-right:20px;
+margin-top:26px;
+}
+#middle2 .feather{
+margin-right:20px;
+margin-top:26px;
+}
+#middle2 .tv{
+margin-right:20px;
+margin-top:26px;
+}
+#contentslider{
+display:flex;
+flex-direction: :row;
+margin-top:150px;
+margin-bottom:150px;
+overflow:hidden;
+}
+#contentslider div{
+width:20%;
+float:left;
+}
+#contentslider div p{
+width:100%;
+float:left;
+}
+#contentslider .slide{
+width:500%;
+position:relative;
+margin:0px;
+padding:0px;
+animation: 20s slidy infinite;
+}
+
+@keyframes slidy{
+0%{
+  left:0%;
+}
+10%{
+  left:0%;
+}
+12%{
+  left:-100%;
+}
+22%{
+  left:-100%;
+}
+24%{
+  left:-200%;
+}
+34%{
+  left:-200%;
+}
+36%{
+  left:-300%;
+}
+46%{
+  left:-300%;
+}
+48%{
+  left:-400%;
+}
+58%{
+  left:-400%;
+}
+60%{
+  left:-300%;
+}
+70%{
+  left:-300%;
+}
+72%{
+  left:-200%;
+}
+82%{
+  left:-200%;
+}
+84%{
+  left:-100%;
+}
+94%{
+  left:-100%;
+}
+96%{
+  left:0%;
+}
+}
